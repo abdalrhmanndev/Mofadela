@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="mo.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">  -->
+     <title>مفاضلة</title>
+</head>
+<body>
+
+    <h1>اختبار التخصص المناسب</h1> 
+
+
+
+    <section id="input_div">  
+        <label for="total"   id="tot_label"> ادخل مجموعك الصافي من 2400 :</label>
+    
+        <input type="number"  required style="margin-top: 10px; display: flex; justify-content: center; margin-right: auto; margin-left: auto; border: black; outline: black;color: #000; " id="total">
+    </section> 
+
+    <hr>
+
+    <section>
+
+        <label for="" class="choose_acourate_text" class="w2" >اختر ما يناسب شخصيتك بدقة فكل اختيار سيؤثر على النتيجة</label>
+
+        <div id="div1" name="one"  > 
+            <p> عندما أشتري ... أعيد حساب فاتورة مشترياتي :</p>
+            <input type="radio" name="one" value="3" id="in1-1" >
+            <label for="in1-1">أوافق بشدة</label>
+            <input type="radio" name="one" value="4" id="in1-2" >
+            <label for="in1-2">أوافق</label> 
+            <input type="radio" name="one" value="1" id="in1-3" >
+            <label for="in1-3">لا أوافق</label>
+            <input type="radio" name="one" value="2" id="in1-4" >
+            <label for="in1-4">لا أوافق مطلقا</label>
+        </div>
+
+
+        <div id="div2" name="tow"> 
+            <p>لا أستطيع رؤية الدم</p>
+            <input type="radio" name="tow" value="2" id="in2-1" >
+            <label for="in2-1">أوافق بشدة</label>
+            <input type="radio"name="tow" value="3" id="in2-2" >
+            <label for="in2-2">أوافق</label> 
+            <input type="radio" value="4"name="tow" id="in2-3" >
+            <label for="in2-3">لا أوافق</label>
+            <input type="radio" value="1" id="in2-4" name="tow">
+            <label for="in2-4">لا أوافق مطلقا</label>
+        </div>
+
+        <div id="div3" name="three"> 
+            <p>لا اطيق الجلوس في مكان واحد:</p>
+            <input type="radio" value="4" name="three" id="in3-1">
+            <label for="in3-1">أوافق بشدة</label>
+            <input type="radio" value="2" name="three" id="in3-2" >
+            <label for="in3-2">أوافق</label> 
+            <input type="radio" value="1" name="three" id="in3-3" >
+            <label for="in3-3">لا أوافق</label>
+            <input type="radio" value="3" name="three" id="in3-4" >
+            <label for="in3-4">لا أوافق مطلقا</label>
+        </div>
+
+        <div id="div4" name="four"> 
+            <p>اذا حدث عطل في احد الأجهزة الكهربائية في المنزل فساحاول اصلاحه:</p>
+            <input type="radio" name="four" value="4" id="in4-1" >
+            <label for="in4-1">أوافق بشدة</label>
+            <input type="radio"name="four" value="3" id="in4-2" >
+            <label for="in4-2">أوافق</label> 
+            <input type="radio" value="1" name="four" id="in4-3" >
+            <label for="in4-3">لا أوافق</label>
+            <input type="radio" value="2" id="in4-4" name="four">
+            <label for="in4-4">لا أوافق مطلقا</label>
+        </div>
+
+        <div id="div5" name="five"> 
+            <p>أحب التعلم عن النباتات و الطيور </p>
+            <input type="radio" value="1" id="in5-1" name="five">
+            <label for="in5-1">أوافق بشدة</label>
+            <input type="radio" value="2" id="in5-2" name="five">
+            <label for="in5-2">أوافق</label> 
+            <input type="radio" value="3" id="in5-3" name="five">
+            <label for="in5-3">لا أوافق</label>
+            <input type="radio" value="4" id="in5-4" name="five">
+            <label for="in5-4">لا أوافق مطلقا</label>
+        </div>
+
+
+        <div id="div6"  name="six"> 
+            <p>هل تحب الرسم و التصميم</p>
+            <input type="radio" value="4" id="in6-1" name="six">
+            <label for="in6-1">أوافق بشدة</label>
+            <input type="radio" value="2" id="in6-2" name="six">
+            <label for="in6-2">أوافق</label> 
+            <input type="radio" value="3" id="in6-3" name="six">
+            <label for="in6-3">لا أوافق</label>
+            <input type="radio" value="1" id="in6-4" name="six">
+            <label for="in6-4">لا أوافق مطلقا</label>
+        </div>
+
+
+        <div id="div7" name="seven"> 
+            <p>أحب الشعر و الفن</p>
+            <input type="radio" value="2" id="in7-1" name="seven">
+            <label for="in7-1">أوافق بشدة</label>
+            <input type="radio" value="1" id="in7-2" name="seven">
+            <label for="in7-2">أوافق</label> 
+            <input type="radio" value="4" id="in7-3" name="seven">
+            <label for="in7-3">لا أوافق</label>
+            <input type="radio" value="3" id="in7-4" name="seven">
+            <label for="in7-4">لا أوافق مطلقا</label>
+        </div>
+
+
+        <div id="div8" name="eight"> 
+            <p> اذا حدث مشكلة في جوال امي  فستطلب مني المساعدة اولا:</p>
+            <input type="radio" value="3" id="in8-1" name="eight">
+            <label for="in8-1">أوافق بشدة</label>
+            <input type="radio" value="4" id="in8-2"name="eight" >
+            <label for="in8-2">أوافق</label> 
+            <input type="radio" value="2" id="in8-3" name="eight">
+            <label for="in8-3">لا أوافق</label>
+            <input type="radio" value="1" id="in8-4"name="eight" >
+            <label for="in8-4">لا أوافق مطلقا</label>
+        </div>
+
+
+        <div id="div9" name="nine"> 
+            <p>احب كتابة مواضيع التعبير:</p>
+            <input type="radio" value="2" id="in9-1" name="nine">
+            <label for="in9-1">أوافق بشدة</label>
+            <input type="radio" value="1" id="in9-2" name="nine">
+            <label for="in9-2">أوافق</label> 
+            <input type="radio" value="3" id="in9-3" name="nine">
+            <label for="in9-3">لا أوافق</label>
+            <input type="radio" value="4" id="in9-4" name="nine">
+            <label for="in9-4">لا أوافق مطلقا</label>
+        </div>
+
+        
+        <div id="div10" name="ten"> 
+            <p>هل تحب الفيزياء و الرياضيات:</p>
+            <input type="radio" value="4" id="in10-1" name="ten">
+            <label for="in10-1">أوافق بشدة</label>
+            <input type="radio" value="3" id="in10-2" name="ten" >
+            <label for="in10-2">أوافق</label> 
+            <input type="radio" value="2" id="in10-3" name="ten">
+            <label for="in10-3">لا أوافق</label>
+            <input type="radio" value="1" id="in10-4"name="ten">
+            <label for="in10-4">لا أوافق مطلقا</label>
+        </div>  
+
+
+        <div id="div11" name="eleven"> 
+            <p> أستمتع بالشرح للاخرين و أحب الألقاء</p>
+            <input type="radio" value="2" id="in11-1" name="eleven">
+            <label for="in11-1">أوافق بشدة</label>
+            <input type="radio" value="1" id="in11-2"name="eleven" >
+            <label for="in11-2">أوافق</label> 
+            <input type="radio" value="4" id="in11-3" name="eleven">
+            <label for="in11-3">لا أوافق</label>
+            <input type="radio" value="3" id="in11-4" name="eleven">
+            <label for="in11-4">لا أوافق مطلقا</label>
+        </div>
+
+
+
+        
+        <div id="div12"  name="twelve"> 
+            <p> اذا شاهدت شخص ينزف فأتألم لحاله</p>
+            <input type="radio" value="1" id="in12-1" name="twelve">
+            <label for="in12-1">أوافق بشدة</label>
+            <input type="radio" value="2" id="in12-2" name="twelve">
+            <label for="in12-2">أوافق</label> 
+            <input type="radio" value="3" id="in12-3" name="twelve">
+            <label for="in12-3">لا أوافق</label>
+            <input type="radio" value="4" id="in12-4" name="twelve">
+            <label for="in12-4">لا أوافق مطلقا</label>
+        </div>
+
+
+        <button id="but" >النتيجة</button>
+        
+        </section>
+
+
+        <hr>
+        
+        <!-- <div id="load1" style="color:white;text-align: center;"> "انتظر" . جاري المعالجة.....</div> -->
+        <pre id="load">  </pre>
+        
+    <table class="" id="table" dir="auto">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" >الاختصاص</th>
+        <th scope="col">العلامة</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr> -->
+    </tbody>
+  </table>
+  
+     
+
+    <script type="text/javascript" src="mo.js" charset="uft-8" ></script>
+
+</body>
+</html>

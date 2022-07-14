@@ -1,10 +1,10 @@
  
 const tb =[
-   {"name":"تحضيرية" , "num":2330},
-   {"name":" تحضيرية موازي"  ,num:2310},
+   {"name":"تحضيري" , "num":2330},
+   {"name":" تحضيري موازي"  ,num:2310},
    {name:"الهندسة الطبية" ,num:2260},
    {name:"كلية الهندسة الحيوية" , num:2000},
-   {name:"المعهد تعويضات سنية" , num:2080},
+   {name:"معهد تعويضات سنية" , num:2080},
    {name:"كلية العلوم الصحية" , num:2000},
    {name:"كلية الكيمياء" , num:1700},
    {name:"كلية الجلوجيا" , num:1700},
@@ -20,8 +20,8 @@ const tb =[
    ]
    
 const teach =[
-   {"name":"تحضيرية" , "num":2330},
-   {"name":" تحضيرية موازي"  ,num:2310},
+   {"name":"تحضيري" , "num":2330},
+   {"name":" تحضيري موازي"  ,num:2310},
    {name:"الهندسة الغذائية" , num:2000},
    {name:"كلية العلوم الصحية" , num:2000 },
    {name:"تعويضات سنية" , num:2080},
@@ -142,7 +142,7 @@ if(input.value.length==4 && 2400<=input.value<=1160){
       
       let select = selectedValue1+selectedValue2+selectedValue3 +selectedValue4 +selectedValue5 + selectedValue6
         +selectedValue7 +selectedValue8 +selectedValue9 +selectedValue10 +selectedValue11 +selectedValue12;
-      alert(select)
+      // alert(select)
       
       if(select.length = 12){
 
@@ -460,7 +460,7 @@ filtertb;
    //       let name_txt = document.createTextNode(tb[i].name);
    //       td2.appendChild(name_txt);
    //       tr.appendChild(td2);
-   79
+   //79
    //       // // 3
    
    //       let td3 =document.createElement('td');
